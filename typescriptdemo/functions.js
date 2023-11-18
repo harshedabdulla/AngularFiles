@@ -29,9 +29,7 @@ function add2(a, ...b) {
 }
 console.log(add2(10, 20, 30, 40, 50));
 //generic functions : type of the parameter is decided by the caller
-function add3(a, b) {
-    return a;
+function getItems(items) {
+    return new Array().concat(items);
 }
-console.log(add3(10, 20));
-console.log(add3("Hello", "World"));
-console.log(add3(true, false));
+let concatResult = getItems([10, 20, 30]);
