@@ -37,7 +37,7 @@ swapNums = swapNumbers(10, 20);
 swapNums[0];
 swapNums[1];
 //any
-let data;
+let data; //can hold any type of data
 data = 10;
 data = "john";
 data = true;
